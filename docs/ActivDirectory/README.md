@@ -30,7 +30,7 @@
 
 ### ワークグループとドメイン
 ---
-![図](URL"タイトル")
+![図](https://plantyuta.github.io/site/docs/ActivDirectory/images/work_domain.jpeg )
 
 #### ワークグループ
 - メリット
@@ -46,7 +46,4 @@
 
 ### フォレストとドメイン
 ---
-![図](https://plantyuta.github.io/site/docs/ActivDirectory/images/work_domain.jpeg )
-
-RL"タイトル")
-
+![図](URL"タイトル")

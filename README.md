@@ -1,2 +1,2 @@
 ## まとめ
-[site](https://plantyuta.github.io/site/ "site")
+[githubpage](https://plantyuta.github.io/site/ "site")

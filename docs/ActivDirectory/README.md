@@ -6,13 +6,13 @@
 ---
 1. ActiveDirectoryドメインサービス(AD DS)
 	- 最も重要なサービス、IDの集約や認証を担当する
-- ActiveDirectoryライトディレクトリサービス(AD LDS)
+1. ActiveDirectoryライトディレクトリサービス(AD LDS)
 	- LDAP(Lightweight Directory Access Protocol)機能に特化したサービス
-- ActiveDirectory証明書サービス(AD FS)
+1. ActiveDirectory証明書サービス(AD FS)
 	- 証明書の発行管理をおこなう
-- ActiveDirectoryフェデレーションサービス(AD FS)
+1. ActiveDirectoryフェデレーションサービス(AD FS)
 	- 組織を超えた異なる認証基盤での連携をおこなう
-- ActiveDirectoryRightsManagementサービス(AD RMS)
+1. ActiveDirectoryRightsManagementサービス(AD RMS)
 	- デジタルコンテンツの保護をおこなう
 
 ### Active Directoryを使用するメリット
@@ -30,7 +30,7 @@
 
 ### ワークグループとドメイン
 ---
-![図](https://plantyuta.github.io/site/docs/ActivDirectory/images/work_domain.jpeg )
+![図](https://plantyuta.github.io/site/docs/ActivDirectory/images/work_domain.jpg )
 
 #### ワークグループ
 - メリット
@@ -46,7 +46,7 @@
 
 ### フォレストとドメイン
 ---
-![図](https://plantyuta.github.io/site/docs/ActivDirectory/images/forest_domain.jpeg )
+![図](https://plantyuta.github.io/site/docs/ActivDirectory/images/forest_domain.jpg )
 #### フォレスト
 - 1つ以上のドメインが含まれる管理単位
 - ドメインコントローラーが1台以上配置され、そのサーバがドメインを管理する

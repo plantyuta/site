@@ -1,4 +1,4 @@
-###$B8+=P$7(B
+###見出し
 
-ActivDirectory : $B8&=$$GJY6/$7$?;v$r$^$H$a$k(B
+ActivDirectory : 研修で勉強した事をまとめる
 

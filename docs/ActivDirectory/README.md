@@ -99,4 +99,9 @@
 
 ### グループポリシー
 ---
+#### GPO
+- クライアントPCに適用するポリシーをまとめたオブジェクト
 
+#### デフォルットのGPO
+- Default Domain Pollicy セキュリティに関する項目
+- Default Domain Contorolers Pllicy ドメインコントローラを管理できる権限

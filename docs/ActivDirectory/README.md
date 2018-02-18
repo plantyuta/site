@@ -1,7 +1,3 @@
-## Active Directoryとは
-> Active Directory (アクティブディレクトリ) とはマイクロソフトによって開発されたオンプレミスにおけるディレクトリ・サービス・システムであり、Windows 2000 Serverから導入された、ユーザとコンピュータリソースを管理するコンポーネント群の総称である。なお、クラウドコンピューティングにおけるディレクトリ・サービス・システムであるAzure Active Directoryと区別する場合、オンプレミス Active Directoryと表記することもある。
->> [Wikipediaより](https://ja.wikipedia.org/wiki/Active_Directory)
-
 ### ActiveDirectoryの５つのサービス
 ---
 1. ActiveDirectoryドメインサービス(AD DS)

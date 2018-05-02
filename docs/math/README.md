@@ -6,7 +6,6 @@
 1. 正の数だろうが負の数だろうが0倍すると(0を掛けると)0になる
 1. 正の数だろうが負の数だろうが1倍しても(1を掛けると)同じ数になる
 1. 正の数だろうが負の数だろうが0を足しても同じ数になる
-----
 ##### 前提条件1について数式で表すと   
 1 + (-1) = 0  
 ##### 両辺に同じ数を掛けても両辺で同じ数になるはずなので  
@@ -275,8 +274,7 @@ DEC -> 絶対値 -> BIN -> 1の補数 -> 2の補数
 2つの集合A,B  
 <img src="https://latex.codecogs.com/gif.latex?A=\{2,4,6,8,10\}"/><br>
 <img src="https://latex.codecogs.com/gif.latex?B=\{3,6,9\}"/><br>
-両方の集合で共通の要素を取り出す
-
+両方の集合で共通の要素を取り出す  
 <img src="https://latex.codecogs.com/gif.latex?A\cap B=\{6\}"/><br>
 AかつB
 
@@ -284,16 +282,13 @@ AかつB
 2つの集合A,B  
 <img src="https://latex.codecogs.com/gif.latex?A=\{2,4,6,8,10\}"/><br>
 <img src="https://latex.codecogs.com/gif.latex?B=\{3,6,9\}"/><br>
-両方の集合から要素を取り出す 
-
+両方の集合から要素を取り出す  
 <img src="https://latex.codecogs.com/gif.latex?A\cup B=\{2,3,4,5,8,9,10\}"/><br>
 AまたはB   
-
 #### 空集合
 <img src="https://latex.codecogs.com/gif.latex?X=\{1,2,3\}"/><br>
 <img src="https://latex.codecogs.com/gif.latex?Y=\{4,5,6\}"/><br>
 両方の集合で共通の要素がない場合  
-
 <img src="https://latex.codecogs.com/gif.latex?X\cap&space;Y=\phi"/>と表す  
 
 #### ベン図
@@ -307,5 +302,3 @@ AまたはB
 | 4		| <img src="https://latex.codecogs.com/gif.latex?A\cup&space;B\cup&space;C"/> | AかBかC | 
 | 5		| <img src="https://latex.codecogs.com/gif.latex?A\cap&space;B\cap&space;C"/> | AかつBかつC | 
 | 6		| <img src="https://latex.codecogs.com/gif.latex?A\cap&space;B\cup\bar{C}"/> | AかつBでCでない | 
-
-

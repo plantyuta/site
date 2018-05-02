@@ -26,7 +26,7 @@
 
 ### ワークグループとドメイン
 ---
-![図](https://plantyuta.github.io/site/docs/ActivDirectory/images/work_domain.jpg )
+![図](https://plantyuta.github.io/site/docs/images/work_domain.jpg )
 
 #### ワークグループ
 - メリット
@@ -42,7 +42,7 @@
 
 ### フォレストとドメイン
 ---
-![図](https://plantyuta.github.io/site/docs/ActivDirectory/images/forest_domain.jpg )
+![図](https://plantyuta.github.io/site/docs/images/forest_domain.jpg )
 #### フォレスト
 - 1つ以上のドメインが含まれる管理単位
 - ドメインコントローラーが1台以上配置され、そのサーバがドメインを管理する
@@ -59,7 +59,7 @@
 
 ### ディレクトリデータベースと複製
 ---
-![図](https://plantyuta.github.io/site/docs/ActivDirectory/images/duplication.jpg )
+![図](https://plantyuta.github.io/site/docs/images/duplication.jpg )
 
 ##### ディレクトリデータベースのパーティション
 | 保持されている情報 | 説明 |

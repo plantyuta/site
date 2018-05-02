@@ -293,12 +293,13 @@ AまたはB
 <img src="https://latex.codecogs.com/gif.latex?X=\{1,2,3\}"/><br>
 <img src="https://latex.codecogs.com/gif.latex?Y=\{4,5,6\}"/><br>
 両方の集合で共通の要素がない場合  
+
 <img src="https://latex.codecogs.com/gif.latex?X\cap&space;Y=\phi"/>と表す  
 
 #### ベン図
 ![図](https://plantyuta.github.io/site/docs/images/ben.jpg )  
 
-| 番号	| 集合	 |  | 
+| 番号	| 集合	 | 条件 | 
 | :---: | :----: | :------: | 
 | 1		| <img src="https://latex.codecogs.com/gif.latex?\bar{A\cup&space;B}"/> | AかBでない | 
 | 2 	| <img src="https://latex.codecogs.com/gif.latex?A\cap\bar{B}"/> | AかつBでない | 
@@ -306,3 +307,5 @@ AまたはB
 | 4		| <img src="https://latex.codecogs.com/gif.latex?A\cup&space;B\cup&space;C"/> | AかBかC | 
 | 5		| <img src="https://latex.codecogs.com/gif.latex?A\cap&space;B\cap&space;C"/> | AかつBかつC | 
 | 6		| <img src="https://latex.codecogs.com/gif.latex?A\cap&space;B\cup\bar{C}"/> | AかつBでCでない | 
+
+

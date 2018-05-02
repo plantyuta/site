@@ -275,7 +275,8 @@ DEC -> 絶対値 -> BIN -> 1の補数 -> 2の補数
 2つの集合A,B  
 <img src="https://latex.codecogs.com/gif.latex?A=\{2,4,6,8,10\}"/><br>
 <img src="https://latex.codecogs.com/gif.latex?B=\{3,6,9\}"/><br>
-両方の集合で共通の要素を取り出す  
+両方の集合で共通の要素を取り出す
+
 <img src="https://latex.codecogs.com/gif.latex?A\cap B=\{6\}"/><br>
 AかつB
 
@@ -283,7 +284,8 @@ AかつB
 2つの集合A,B  
 <img src="https://latex.codecogs.com/gif.latex?A=\{2,4,6,8,10\}"/><br>
 <img src="https://latex.codecogs.com/gif.latex?B=\{3,6,9\}"/><br>
-両方の集合から要素を取り出す  
+両方の集合から要素を取り出す 
+
 <img src="https://latex.codecogs.com/gif.latex?A\cup B=\{2,3,4,5,8,9,10\}"/><br>
 AまたはB   
 
@@ -293,7 +295,9 @@ AまたはB
 両方の集合で共通の要素がない場合  
 <img src="https://latex.codecogs.com/gif.latex?X\cap&space;Y=\phi"/>と表す  
 
-![図](https://plantyuta.github.io/site/docs/images/ben.jpg )
+#### ベン図
+![図](https://plantyuta.github.io/site/docs/images/ben.jpg )  
+
 | 番号	| 集合	 |  | 
 | :---: | :----: | :------: | 
 | 1		| <img src="https://latex.codecogs.com/gif.latex?\bar{A\cup&space;B}"/> | AかBでない | 

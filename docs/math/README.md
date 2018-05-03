@@ -219,7 +219,7 @@ DEC -> 絶対値 -> BIN -> 1の補数 -> 2の補数
 | 値	 | 演算結果 |
 | :----: | :------: |
 | 0 	 | 1	    |
-| 1		 | 0	    |
+| 1		 | 0	    |  
 値を否定
 
 ##### AND演算 論理積
@@ -228,7 +228,7 @@ DEC -> 絶対値 -> BIN -> 1の補数 -> 2の補数
 | 0 	| 0 	 | 0	    | 
 | 1		| 0		 | 0	    | 
 | 0 	| 1 	 | 0	    | 
-| 1		| 1		 | 1	    | 
+| 1		| 1		 | 1	    |   
 値の積がTrueの場合にTrue
 
 ##### OR演算 論理和
@@ -237,7 +237,7 @@ DEC -> 絶対値 -> BIN -> 1の補数 -> 2の補数
 | 0 	| 0 	 | 0	    | 
 | 1		| 0		 | 1	    | 
 | 0 	| 1 	 | 1	    | 
-| 1		| 1		 | 1	    | 
+| 1		| 1		 | 1	    |   
 値の和がTrueの場合にTrue
 
 ##### XOR演算 排他的論理和
@@ -246,7 +246,7 @@ DEC -> 絶対値 -> BIN -> 1の補数 -> 2の補数
 | 0 	| 0 	 | 0	    | 
 | 1		| 0		 | 1	    | 
 | 0 	| 1 	 | 1	    | 
-| 1		| 1		 | 0	    | 
+| 1		| 1		 | 0	    |   
 値1と値2が異なるときのみTrue
 
 ---
@@ -275,7 +275,7 @@ DEC -> 絶対値 -> BIN -> 1の補数 -> 2の補数
 <img src="https://latex.codecogs.com/gif.latex?A=\{2,4,6,8,10\}"/><br>
 <img src="https://latex.codecogs.com/gif.latex?B=\{3,6,9\}"/><br>
 両方の集合で共通の要素を取り出す  
-<img src="https://latex.codecogs.com/gif.latex?A\cap B=\{6\}"/><br>
+<img src="https://latex.codecogs.com/gif.latex?A\cap B=\{6\}"/>  
 AかつB
 
 #### 和集合
@@ -283,7 +283,7 @@ AかつB
 <img src="https://latex.codecogs.com/gif.latex?A=\{2,4,6,8,10\}"/><br>
 <img src="https://latex.codecogs.com/gif.latex?B=\{3,6,9\}"/><br>
 両方の集合から要素を取り出す  
-<img src="https://latex.codecogs.com/gif.latex?A\cup B=\{2,3,4,5,8,9,10\}"/><br>
+<img src="https://latex.codecogs.com/gif.latex?A\cup B=\{2,3,4,5,8,9,10\}"/>  
 AまたはB   
 #### 空集合
 <img src="https://latex.codecogs.com/gif.latex?X=\{1,2,3\}"/><br>
@@ -296,9 +296,15 @@ AまたはB
 
 | 番号	| 集合	 | 条件 | 
 | :---: | :----: | :------: | 
-| 1		| <img src="https://latex.codecogs.com/gif.latex?\bar{A\cup&space;B}"/> | AかBでない | 
-| 2 	| <img src="https://latex.codecogs.com/gif.latex?A\cap\bar{B}"/> | AかつBでない | 
-| 3		| <img src="https://latex.codecogs.com/gif.latex?(A\cap\bar{B})\cup(\bar{A}\cup&space;B)"/> | AかつBでないかAでなくB | 
+| 1		| <img src="https://latex.codecogs.com/gif.latex?\overline{A\cup&space;B}"/> | 「AまたはB」でない | 
+| 2 	| <img src="https://latex.codecogs.com/gif.latex?A\cap\bar{B}"/> | 「Aである」かつ「Bでない」 | 
+| 3		| <img src="https://latex.codecogs.com/gif.latex?(A\cap\bar{B})\cup(\bar{A}\cup&space;B)"/> | 「AかつBでない」または「AでなくBである」| 
 | 4		| <img src="https://latex.codecogs.com/gif.latex?A\cup&space;B\cup&space;C"/> | AかBかC | 
 | 5		| <img src="https://latex.codecogs.com/gif.latex?A\cap&space;B\cap&space;C"/> | AかつBかつC | 
-| 6		| <img src="https://latex.codecogs.com/gif.latex?A\cap&space;B\cup\bar{C}"/> | AかつBでCでない | 
+| 6		| <img src="https://latex.codecogs.com/gif.latex?A\cap&space;B\cup\bar{C}"/> | 「AかつB」または「Cでない」 | 
+
+##### ド・モルガンの法則
+<img src="https://latex.codecogs.com/gif.latex?\overline{A}\cup\overline{B}=\overline{A\cap\\B}\par&space;\overline{A}\cap\overline{B}=\overline{A\cup\\B}"/>
+
+- 「Aでない」または「Bでない」は、「AかつB」でないことに等しい
+- 「Aでない」かつ「Bでない」は、「AまたはB」でないことに等しい
